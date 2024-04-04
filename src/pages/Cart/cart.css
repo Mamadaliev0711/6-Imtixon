@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+.cart--img img {
+  width: 128px;
+  height: 128px;
+  border-radius: 10px;
+}
+.carts--color {
+  background-color: rgb(255, 87, 51);
+}
+.carts--number {
+  width: 49px;
+  height: 26px;
+  margin: 8px 0px 0px;
+  padding: 0px 3px 0px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.carts--amount {
+  position: absolute;
+  transform: translateX(500px);
+}
+.carts--texts {
+  cursor: pointer;
+}
+.carts--money {
+  position: absolute;
+  transform: translateX(700px);
+}
+.carts--card {
+  position: absolute;
+  transform: translateX(800px);
+  width: 325px;
+  height: 276px;
+  border-radius: 20px;
+  padding: 32px;
+}
+.carts--texts--2 {
+  gap: 140px;
+}
+.carts--total {
+  gap: 120px;
+}
+.carts--button {
+  position: absolute;
+  transform: translateX(790px) translateY(300px);
+}
+.carts--button button {
+  width: 324px;
+  height: 48px;
+  margin: 32px 0px 0px;
+}

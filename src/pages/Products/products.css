@@ -1,0 +1,41 @@
+.card-img-top {
+  margin-left: 35px;
+  width: 303px;
+  height: 192px;
+  border: none;
+}
+.cards {
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 16px 16px 0px 0px;
+}
+.card-title {
+  text-align: center;
+  padding: 32px;
+}
+.card-text {
+  position: absolute;
+  transform: translateY(260px);
+  text-align: center;
+  margin-left: 130px;
+}
+.app--buttons {
+  background-color: #fff;
+  position: absolute;
+  transform: translateX(1070px);
+}
+
+/* products.css */
+
+.dark-mode .card {
+  background-color: #272935; /* Dark mode uchun fona rang */
+  color: #fff; /* Dark mode uchun matn rangi */
+}
+
+.light-mode .card {
+  background-color: #fff; /* Light mode uchun fona rang */
+  color: #000; /* Light mode uchun matn rangi */
+}

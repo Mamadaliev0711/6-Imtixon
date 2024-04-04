@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homepage {
+  margin: 0px 40px;
+  padding: 80px 32px;
+}
+.hompage--1 h1 {
+  width: 471px;
+  height: 180px;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.col h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.col__text {
+  width: 490px;
+  height: 96px;
+  font-size: 18px;
+  margin-top: 500px;
+}
+
+.slideShow {
+  margin-left: 70px;
+  width: 496px;
+  display: inline-flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  height: 28rem;
+  max-width: 500px;
+  border-radius: 20px;
+}
+.imageWrapper--1 {
+  background-color: rgb(6, 12, 29);
+  object-fit: cover;
+  width: 20rem;
+  height: 100%;
+  border-radius: 20px;
+}
+.carouselItem {
+  background-color: rgb(8, 18, 52);
+  align-items: center;
+  box-sizing: content-box;
+  display: flex;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.imageWrapper {
+  background-color: aliceblue;
+  width: 303px;
+  height: 192px;
+}
+.home--card {
+  padding: 16px 16px 0px 0px;
+}
+.home--card h5 {
+  text-align: center;
+  padding: 32px;
+}
+.product--value {
+  margin-left: 125px;
+  text-align: center;
+}

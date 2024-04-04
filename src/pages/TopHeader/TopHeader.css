@@ -1,0 +1,18 @@
+.color {
+  background-color: #021431;
+}
+
+.signUp {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 9600px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.signUp span {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
